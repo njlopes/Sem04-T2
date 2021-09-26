@@ -1,0 +1,6 @@
+preço = float(input("Digite um preço:"))
+x = float(input("Digite um desconto percentual:"))
+novomenos = preço - (preço*x/100)
+novomais = preço + (preço*x/100)
+print("{:.2f}".format(novomais))
+print("{:.2f}".format(novomenos))
